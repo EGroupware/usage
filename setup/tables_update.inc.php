@@ -11,12 +11,12 @@
  */
 
 
-function tracker_upgrade1_7_001()
+function usage_upgrade1_7_001()
 {
 	return $GLOBALS['setup_info']['usage']['currentver'] = '14.1';
 }
 
-function tracker_upgrade14_1()
+function usage_upgrade14_1()
 {
 	return $GLOBALS['setup_info']['usage']['currentver'] = '16.1';
 }
